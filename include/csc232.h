@@ -65,9 +65,9 @@ double grades[ROSTER_SIZE];
 
 double gradeBook[NUM_COURSES][ROSTER_SIZE];
 
-int maxGrade(int num_elements,double array[5]);
+void maxGrade(int num_elements,double array[]);
 
-int indexOfMaxGrade(int num_rows,int num_col,double)
+int indexOfMaxGrade(double arrays[][ROSTER_SIZE],int num_rows,int num_col);
 // TODO: 3.1 - Implement the specified function below
 
 
